@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	font-family: 'Montserrat', sans-serif;
 }
@@ -7,10 +11,15 @@ header {
 	padding: 20px 0;
 }
 
-.caixa {
+/* .caixa {
 	position: relative;
 	width: 940px;
 	margin: 0 auto;
+} */
+
+.caixa {
+	display: flex;
+	justify-content: space-between;
 }
 
 nav {
@@ -84,7 +93,7 @@ nav a:hover {
 
 footer {
 	text-align: center;
-	background: url("bg.jpg");
+	background: url("./imagens/bg.jpg");
 	padding: 40px 0;
 }
 
